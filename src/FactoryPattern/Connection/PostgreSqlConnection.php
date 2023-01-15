@@ -1,8 +1,8 @@
 <?php
 
-namespace Nin\Connection;
+namespace Nin\FactoryPattern\Connection;
 
-class OracleConnection implements DBConnection
+class PostgreSqlConnection implements DBConnection
 {
 
     public function connection()

@@ -1,8 +1,8 @@
 <?php
 
-namespace Nin\QueryBuilder;
+namespace Nin\FactoryPattern\QueryBuilder;
 
-class PostgreSqlQueryBuilder implements DBQueryBuilder
+class MySqlQueryBuilder implements DBQueryBuilder
 {
 
     public function query(Criteria $criteria)

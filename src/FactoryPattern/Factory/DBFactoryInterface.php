@@ -1,10 +1,11 @@
 <?php
 
-namespace Nin\Factory;
+namespace Nin\FactoryPattern\Factory;
 
-use Nin\Connection\DBConnection;
-use Nin\QueryBuilder\DBQueryBuilder;
-use Nin\Record\DBRecord;
+
+use Nin\FactoryPattern\Connection\DBConnection;
+use Nin\FactoryPattern\QueryBuilder\DBQueryBuilder;
+use Nin\FactoryPattern\Record\DBRecord;
 
 interface DBFactoryInterface
 {

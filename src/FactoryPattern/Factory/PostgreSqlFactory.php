@@ -1,13 +1,13 @@
 <?php
 
-namespace Nin\Factory;
+namespace Nin\FactoryPattern\Factory;
 
-use Nin\Connection\DBConnection;
-use Nin\Connection\PostgreSqlConnection;
-use Nin\QueryBuilder\DBQueryBuilder;
-use Nin\QueryBuilder\PostgreSqlQueryBuilder;
-use Nin\Record\DBRecord;
-use Nin\Record\PostgreSqlRecord;
+use Nin\FactoryPattern\Connection\DBConnection;
+use Nin\FactoryPattern\Record\DBRecord;
+use Nin\FactoryPattern\QueryBuilder\DBQueryBuilder;
+use Nin\FactoryPattern\Connection\PostgreSqlConnection;
+use Nin\FactoryPattern\QueryBuilder\PostgreSqlQueryBuilder;
+use Nin\FactoryPattern\Record\PostgreSqlRecord;
 
 class PostgreSqlFactory implements DBFactoryInterface
 {

@@ -1,17 +1,14 @@
 <?php
 
-namespace Nin\Factory;
+namespace Nin\FactoryPattern\Factory;
 
-use Nin\Connection\DBConnection;
-use Nin\QueryBuilder\Criteria;
-use Nin\QueryBuilder\DBQueryBuilder;
-use Nin\Record\DBRecord;
+use Nin\FactoryPattern\QueryBuilder\Criteria;
 
 class DBFactory
 {
-    protected DBConnection $connection;
-    protected DBRecord $record;
-    protected DBQueryBuilder $queryBuilder;
+    protected $connection;
+    protected $record;
+    protected $queryBuilder;
 
     public function __construct(DBFactoryInterface $factory)
     {

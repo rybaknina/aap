@@ -1,6 +1,6 @@
 <?php
 
-namespace Nin\Record;
+namespace Nin\FactoryPattern\Record;
 
 interface DBRecord
 {

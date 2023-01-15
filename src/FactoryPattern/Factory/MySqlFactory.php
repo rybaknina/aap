@@ -1,13 +1,14 @@
 <?php
 
-namespace Nin\Factory;
+namespace Nin\FactoryPattern\Factory;
 
-use Nin\Connection\DBConnection;
-use Nin\Connection\MySqlConnection;
-use Nin\QueryBuilder\DBQueryBuilder;
-use Nin\QueryBuilder\MySqlQueryBuilder;
-use Nin\Record\DBRecord;
-use Nin\Record\MySqlRecord;
+use Nin\FactoryPattern\Connection\DBConnection;
+use Nin\FactoryPattern\Record\DBRecord;
+use Nin\FactoryPattern\QueryBuilder\DBQueryBuilder;
+use Nin\FactoryPattern\Connection\MySqlConnection;
+use Nin\FactoryPattern\QueryBuilder\MySqlQueryBuilder;
+use Nin\FactoryPattern\Record\MySqlRecord;
+
 
 class MySqlFactory implements DBFactoryInterface
 {

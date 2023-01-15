@@ -1,13 +1,13 @@
 <?php
 
-namespace Nin\Factory;
+namespace Nin\FactoryPattern\Factory;
 
-use Nin\Connection\DBConnection;
-use Nin\Connection\OracleConnection;
-use Nin\QueryBuilder\DBQueryBuilder;
-use Nin\QueryBuilder\OracleQueryBuilder;
-use Nin\Record\DBRecord;
-use Nin\Record\OracleRecord;
+use Nin\FactoryPattern\Connection\DBConnection;
+use Nin\FactoryPattern\Record\DBRecord;
+use Nin\FactoryPattern\QueryBuilder\DBQueryBuilder;
+use Nin\FactoryPattern\Connection\OracleConnection;
+use Nin\FactoryPattern\QueryBuilder\OracleQueryBuilder;
+use Nin\FactoryPattern\Record\OracleRecord;
 
 class OracleFactory implements DBFactoryInterface
 {
