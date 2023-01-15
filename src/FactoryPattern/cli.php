@@ -1,12 +1,12 @@
 <?php
 
-use Nin\Factory\DBFactory;
-use Nin\Factory\OracleFactory;
-use Nin\Factory\PostgreSqlFactory;
-use Nin\QueryBuilder\Criteria;
-use Nin\Factory\MySqlFactory;
+use Nin\FactoryPattern\Factory\DBFactory;
+use Nin\FactoryPattern\Factory\MySqlFactory;
+use Nin\FactoryPattern\Factory\OracleFactory;
+use Nin\FactoryPattern\Factory\PostgreSqlFactory;
+use Nin\FactoryPattern\QueryBuilder\Criteria;
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once '../../vendor/autoload.php';
 
 $factory = new MySqlFactory();
 $db = new DBFactory($factory);

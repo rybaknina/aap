@@ -1,6 +1,6 @@
 <?php
 
-namespace Nin\QueryBuilder;
+namespace Nin\FactoryPattern\QueryBuilder;
 
 interface DBQueryBuilder
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Nin\QueryBuilder;
+namespace Nin\FactoryPattern\QueryBuilder;
 
-class OracleQueryBuilder implements DBQueryBuilder
+class PostgreSqlQueryBuilder implements DBQueryBuilder
 {
 
     public function query(Criteria $criteria)

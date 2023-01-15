@@ -1,6 +1,6 @@
 <?php
 
-namespace Nin\Connection;
+namespace Nin\FactoryPattern\Connection;
 
 class MySqlConnection implements DBConnection
 {

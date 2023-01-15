@@ -1,8 +1,8 @@
 <?php
 
-namespace Nin\Record;
+namespace Nin\FactoryPattern\Record;
 
-class MySqlRecord implements DBRecord
+class PostgreSqlRecord implements DBRecord
 {
 
     public function record($params)
